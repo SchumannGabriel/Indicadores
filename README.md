@@ -29,7 +29,7 @@ Para garantir que os gráficos fiquem nítidos em uma folha A3 ($297mm \times 42
 * **Python 3.x**
 * **Pandas:** Manipulação de dados.
 * **Matplotlib / Seaborn:** Geração de gráficos e layouts.
-* **Openpyxl:** Leitura de arquivos Excel (`Dados.xlsx`).
+* **Openpyxl:** Leitura de arquivos Excel.
 
 ## Estrutura do Repositório
 
