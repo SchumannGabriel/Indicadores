@@ -7,8 +7,8 @@ import os
 # ======================================================
 # 1. CONFIGURAÇÕES E CORES
 # ======================================================
-TOKEN = '32M5yHYGUMBRyOTkf3GstuBbJ36Q4T9TvefrX'
-ID_PLANILHA = '3432321207193476'
+TOKEN = ''
+ID_PLANILHA = ''
 
 COL_DATA = 'Data do relato'
 COL_TRAT = 'Tratativa'
