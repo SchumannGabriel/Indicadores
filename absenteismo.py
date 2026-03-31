@@ -58,7 +58,7 @@ meta_valor = linha["Meta"]
 abs_mes = linha["Abs_%"]
 
 # ================================
-# 4. CONSTRUÇÃO DO DASHBOARD (SEM ROSCA)
+# 4. CONSTRUÇÃO DO DASHBOARD 
 # ================================
 # Agora com apenas 2 colunas na linha de baixo
 fig = make_subplots(
