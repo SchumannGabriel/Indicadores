@@ -34,7 +34,6 @@ Para garantir que os gráficos fiquem nítidos em uma folha A3 ($297mm \times 42
 ## Estrutura do Repositório
 
 * `/diarios`: Scripts para indicadores de atualização diária.
-* `Dados.xlsx`: Fonte de dados principal utilizada pelos scripts.
 * `OTD_geral_impressao.py`: Script principal configurado para o layout de impressão.
 
 ##  Como Executar
