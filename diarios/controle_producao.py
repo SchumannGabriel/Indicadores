@@ -14,8 +14,8 @@ except:
 # ================================
 # CONFIGURAÇÕES SMARTSHEET
 # ================================
-TOKEN = '32M5yHYGUMBRyOTkf3GstuBbJ36Q4T9TvefrX'
-ID_PLANILHA = '8431517991653252'
+TOKEN = ''
+ID_PLANILHA = ''
 
 def carregar_dados():
     smart = smartsheet.Smartsheet(TOKEN)
@@ -46,10 +46,9 @@ df_filtrado['Quantidade Produzida'] = pd.to_numeric(df_filtrado['Quantidade Prod
 producao_setor = df_filtrado.groupby('Setor')['Quantidade Produzida'].sum().reset_index()
 total_dia = df_filtrado['Quantidade Produzida'].sum()
 
-# ... (mantenha a parte inicial de conexão ao Smartsheet)
 
 # ================================
-# DASHBOARD A3 - ATUALIZADO
+# DASHBOARD A3 
 # ================================
 fig = make_subplots(
     rows=2, cols=1,
