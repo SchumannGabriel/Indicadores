@@ -3,9 +3,9 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import os
 
-# =================================================================
-# CONFIGURAÇÕES DE IMPRESSÃO A3 E DESIGN CORPORATIVO
-# =================================================================
+# ============================================
+# CONFIGURAÇÕES DE IMPRESSÃO A3 
+# ===========================================
 CONFIG = {
     "Caminho_Excel": "Dados.xlsx",
     "Aba": "indice_devolucoes",
@@ -102,7 +102,7 @@ def gerar_relatorio_a3(df, colunas_producao):
         number={'font': {'size': 80, 'color': CONFIG["Cores"]["Erro"]}, 'valueformat': 'd'}
     ), row=1, col=2)
 
-    # --- 2. GAUGE (LIMPO) ---
+    # --- 2. GAUGE ---
     fig.add_trace(go.Indicator(
         mode="gauge+number", value=linha_atual['perc_dev'],
         number={'suffix': "%", 'font': {'size': 55, 'color': cor_laranja}, 'valueformat': '.3f'},
