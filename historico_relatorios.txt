@@ -1,0 +1,2 @@
+[25/03/2026 10:59:50] Aba: on-time-delivery OTD | Mês: fevereiro | Arquivo: Dashboard_PCP_fevereiro_2026.png
+[25/03/2026 14:07:18] NC corrigido | Mês: fevereiro | Cor Gauge: Vermelho
