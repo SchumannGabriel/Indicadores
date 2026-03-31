@@ -4,8 +4,8 @@ import pandas as pd
 # ================================
 # CONFIGURAÇÕES SMARTSHEET
 # ================================
-TOKEN = '32M5yHYGUMBRyOTkf3GstuBbJ36Q4T9TvefrX'
-ID_PLANILHA = '3432321207193476'
+TOKEN = ''
+ID_PLANILHA = ''
 
 def ver_colunas_real():
     try:
@@ -29,3 +29,6 @@ def ver_colunas_real():
 
 if __name__ == "__main__":
     ver_colunas_real()
+
+
+#Esse codigo serve apenas para mostrar como esta o nome das colunas corretamente, em caso de duvida se não estiver conseguindo puxar alguma coluna
